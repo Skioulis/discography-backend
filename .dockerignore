@@ -1,0 +1,61 @@
+# Node modules
+node_modules
+npm-debug.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE files
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+*.md
+
+# Tests
+tests
+test
+*.test.js
+*.spec.js
+__tests__
+
+# CI/CD
+.github
+.gitlab-ci.yml
+.travis.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Build artifacts
+dist
+build
+coverage
+
+# Database files (if you have local db files)
+database/*.db
+database/*.sqlite
+*.sql
+
+# Development files
+ideaSources
+Scratches and Consoles
+
+# Package lock files (optional - include if you want to use npm ci)
+# package-lock.json
