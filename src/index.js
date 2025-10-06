@@ -14,7 +14,14 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 app.get("/", async (req, res) => {
-    res.status(200).json({ message: "Hello World! from backend" });
+    let body = {name: "fotis", surname: "fotiadis"};
+
+
+
+    res.status(200).json({
+        data: body
+
+    });
 });
 
 app.listen(port, () => {
