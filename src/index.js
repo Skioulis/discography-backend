@@ -18,10 +18,7 @@ app.get("/", async (req, res) => {
 
 
 
-    res.status(200).json({
-        data: body
-
-    });
+    res.status(200).json({body});
 });
 
 app.listen(port, () => {
